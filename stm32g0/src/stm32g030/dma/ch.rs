@@ -9,6 +9,8 @@ pub struct CH {
     pub par: PAR,
     #[doc = "0x0c - DMA channel x memory address register"]
     pub mar: MAR,
+
+    pub _RESERVED: u32,
 }
 #[doc = "CR (rw) register accessor: an alias for `Reg<CR_SPEC>`"]
 pub type CR = crate::Reg<cr::CR_SPEC>;
